@@ -1,0 +1,368 @@
+:root {
+    --primary-color: #003559;
+    --secundary-color: #FFDA69;
+    --green-color: #4A9E05;
+    --green-color-dark: rgb(65, 136, 6);
+    --white-color: #FFFFFF;
+    --text-title: #003559;
+    --text-body: #574F3C;
+}
+
+body {
+    margin: 0px;
+    background: #FFFFFF;
+    font-family: 'Arial';
+    color: var(--text-body);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-container {
+    width: 100%;
+    z-index: 100;
+    padding: 0 5%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1980px; 
+}
+
+
+/*  >>>>>> NAVBAR <<<<<< */
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0px 4px 2px #0000002E;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    box-sizing: border-box;
+}
+
+.navbar-links-list:nth-child(1) {
+    margin-left: 0;
+}
+
+.navbar-links-list-item {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.navbar-links-list-item:hover {
+    color: var(--text-title);
+}
+
+.social-media-list {
+    display: flex;
+}
+
+.social-media-list:nth-child(1) {
+    margin-left: 0;
+}
+
+.social-media-list-item {
+    margin-left: 8px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.social-media-list-item:hover {
+    background-color: #EEEEEE;
+}
+
+
+
+/*  >>>>>> HEADER <<<<<< */
+
+.header {
+    background-image: url("../img/folder-img.png");
+    width: 100%;
+    height: 600px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 5.2em;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 1.6em;
+    line-height: 1.3em;
+    margin: 0;
+}
+
+.header h2 {
+    margin-top: 8px;
+}
+
+.header-title {
+    text-align: left;
+    position: absolute;
+    top: calc(50% + 20px);
+    left: 5%;
+    transform: translate(0%, -50%);
+    color: white;
+}
+
+.btn-header {
+    margin-top: 24px;
+}
+
+.btn {
+    border: none;
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--green-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: var(--green-color-dark);
+}
+
+.btn-image {
+    width: 19px;
+    margin-right: 6px;
+}
+
+
+
+
+/*  >>>>>> SAIBA MAIS <<<<<< */
+
+.saiba-mais-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    color: var(--text-title);
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 32px;
+    line-height: 1.2em;
+}
+
+.section-title-image {
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.saiba-mais-list {
+    display: flex;
+    justify-content: center;
+}
+
+.saiba-mais-list:nth-child(2) {
+    margin: 0px 24px;
+}
+
+.saiba-mais-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+}
+
+.saiba-mais-list-item-title {
+    color: var(--text-title);
+    margin: 24px 0px 12px 0px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/*  >>>>>> SOBRE <<<<<< */
+
+.sobre-container {
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.sobre-line-text {
+    font-size: 1.4em;
+    padding-right: 32px;
+    line-height: 1.6em;
+    padding: 0 10%;
+}
+
+.sobre-line-image {
+    margin: 12px 0;
+    width: 80%;
+    padding-top: 50%;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    background-size: 100%;
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.sobre-container .row {
+    margin: 50px 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#sobre-image-1{background-image: url("../img/maos-terra.png");}
+
+#sobre-image-2{background-image: url("../img/regador.png");}
+
+#sobre-image-3{background-image: url("../img/maos-sujas.png");}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .sobre-line-text {
+        font-size: 1.2em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .header-title {
+        /* text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+    }
+
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    .header {
+        height: 500px;
+    }
+
+    .navbar {
+        height: 46px;
+    }
+
+    .navbar-links-list-item {
+        display: none;
+    }
+
+    .navbar-logo {
+        width: 95px;
+    }
+    
+    .saiba-mais-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .saiba-mais-list:nth-child(1) {
+        margin: 0px 0px;
+    }
+
+    .saiba-mais-list-item {
+        margin: 32px 0px;
+    }
+
+    .section-title {
+        font-size: .9em;
+        max-width: 250px;
+    }
+
+
+    
+
+    .sobre-line-text {
+        font-size: 1em;
+        padding-right: 0px;
+        margin-top: 24px;
+        padding: 0 0;
+    }
+
+    .sobre-line-image {
+        width: 100%;
+        height: 250px;
+        padding: 0;
+        align-self: center;
+        justify-self: center;
+    }
+    
+
+}

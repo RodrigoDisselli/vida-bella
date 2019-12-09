@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <g id="agrotoxico" transform="translate(-510 -554)">
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(510 554)" fill="none" stroke="#003559" stroke-width="2">
+      <circle cx="46" cy="46" r="46" stroke="none"/>
+      <circle cx="46" cy="46" r="45" fill="none"/>
+    </g>
+    <g id="spray" transform="translate(539 573.598)">
+      <g id="Grupo_62" data-name="Grupo 62" transform="translate(0)">
+        <g id="Grupo_61" data-name="Grupo 61">
+          <path id="Caminho_15" data-name="Caminho 15" d="M149.6,0h13.974a.873.873,0,0,1,.873.873v.873h2.62a.873.873,0,0,1,.873.873V7.86a.873.873,0,0,1-.873.873h-2.62V9.4l3.4,6.8a.873.873,0,0,1-.782,1.264h-3.493a.874.874,0,0,1-.782-.483l-3.252-6.5h-3.827v1.747h.873a.873.873,0,0,1,.873.873v4.879l9.2,9.2a4.339,4.339,0,0,1,1.279,3.088V48.035a4.372,4.372,0,0,1-4.367,4.367H147.855a4.372,4.372,0,0,1-4.367-4.367V13.1a.873.873,0,0,1,.873-.873h.873V10.48h-4.367a.873.873,0,0,1-.873-.873A9.618,9.618,0,0,1,149.6,0ZM166.2,6.987V3.493h-1.747V6.987Zm-2.08,8.734h1.541l-2.62-5.24H161.5Zm-18.88,32.315a2.62,2.62,0,0,0,2.62,2.62h15.721a2.62,2.62,0,0,0,2.62-2.62V30.268a2.6,2.6,0,0,0-.767-1.853l-3.962-3.961H145.235Zm0-25.328H159.72l-3.493-3.493H145.235Zm0-5.24h10.48V13.974h-10.48Zm8.734-5.24V10.48h-6.987v1.747Zm-7.86-3.493H162.7V1.747H149.6a7.872,7.872,0,0,0-7.812,6.987Z" transform="translate(-139.995)" fill="#003559"/>
+        </g>
+      </g>
+      <g id="Grupo_64" data-name="Grupo 64" transform="translate(29.565 4.605)">
+        <g id="Grupo_63" data-name="Grupo 63" transform="translate(0 0)">
+          <rect id="Retângulo_23" data-name="Retângulo 23" width="4" height="2" transform="translate(0.435 -0.203)" fill="#003559"/>
+        </g>
+      </g>
+      <g id="Grupo_66" data-name="Grupo 66" transform="translate(29.304 0.093)">
+        <g id="Grupo_65" data-name="Grupo 65" transform="translate(0 0)">
+          <rect id="Retângulo_24" data-name="Retângulo 24" width="1.747" height="3.906" transform="matrix(-0.447, -0.894, 0.894, -0.447, 0.781, 3.309)" fill="#003559"/>
+        </g>
+      </g>
+      <g id="Grupo_68" data-name="Grupo 68" transform="translate(29.304 7.079)">
+        <g id="Grupo_67" data-name="Grupo 67" transform="translate(0 0)">
+          <rect id="Retângulo_25" data-name="Retângulo 25" width="3.906" height="1.747" transform="matrix(-0.894, -0.447, 0.447, -0.894, 3.493, 3.309)" fill="#003559"/>
+        </g>
+      </g>
+    </g>
+    <path id="Caminho_16" data-name="Caminho 16" d="M0,0,21.656,20.016,34.576,31.956" transform="translate(526.5 565.5)" fill="none" stroke="#003559" stroke-width="2"/>
+    <line id="Linha_2" data-name="Linha 2" x2="67" y2="61" transform="translate(520.5 571.5)" fill="none" stroke="#003559" stroke-width="2"/>
+    <path id="Caminho_17" data-name="Caminho 17" d="M46.75,43.208,66,61" transform="translate(526.5 565.5)" fill="none" stroke="#003559" stroke-width="2"/>
+  </g>
+</svg>
